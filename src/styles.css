@@ -1,0 +1,118 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 90px;
+  padding: 30px 60px;
+  margin-top: 35px;
+  max-width: 1200px;
+  background: white;
+}
+
+img {
+  display: flex;
+  width: 27%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  text-align: left;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.section2 {
+  font-size: 18px;
+}
+
+#anrede {
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 10px;
+  border-color: #ea002a;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  color: grey;
+}
+
+#Nachname {
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border: 1px solid #ea002a;
+  border-radius: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+
+#Vorname {
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 10px;
+  border: 1px solid #ea002a;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+
+#Benutzername {
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 10px;
+  border: 1px solid #ea002a;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+
+#Email {
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 10px;
+  border: 1px solid #ea002a;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+
+#Kundennummer {
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 10px;
+  border: 1px solid #ea002a;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+
+#sendenButton {
+  background-color: #ea002a;
+  border: #ea002a;
+  padding: 7px 60px;
+  margin-top: 50px;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  color: white;
+}
+
+#sendenButton:hover {
+  background-color: grey;
+  border-color: grey;
+}
