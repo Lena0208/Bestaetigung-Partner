@@ -28,19 +28,22 @@ h1 {
 }
 
 .registerBtn {
-  text-decoration: none;
-  color: #fff;
   background-color: #ea002a;
-  border: #ea002a;
+  border: 1px solid #ea002a;
   padding: 7px 20px;
   margin-top: 50px;
   border-radius: 10px;
   transition: all 200ms ease-in-out;
-
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .registerBtn:hover {
   background-color: grey;
   border-color: grey;
+  color: #fff;
 }
