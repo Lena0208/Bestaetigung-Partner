@@ -11,34 +11,13 @@
 <body>
 <div class="container"> 
     <img src="media/PartnerABcademy Logo.png" alt="PartnerLogo">
-   <div class="row"> 
-    <div class="col-6 section1">
     <h1>
         Vielen Dank für Ihre Registrierung! </br> </br>
         Nach erfolgreicher Prüfung erhalten Sie eine E-Mail mit dem Zugang zu unserer Partner ABcademy.</br></br>Wir wünschen Ihnen viel Spaß und Erfolg beim lernen.
     </h1>
-</div>
-<div class ="col-6 section2"> 
-    <form action="https://alexanderbuerkle--uat.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
-
-<input type=hidden name="orgid" value="00D3N00000037db">
-<input type=hidden name="retURL" value="https://confirm-partner-abcademy.netlify.app/">
-<select id="anrede" name="Anrede_PA__c" title="Anrede"><option value="Herr">Herr</option>
-<option value="Frau">Frau</option>
-<option value="Divers">Divers</option>
-</select>
-<input id="Nachname" maxlength="30" name="Nachname_PA__c" size="20" type="text" placeholder="Nachname *" required aria-label="Nachname Pflichtfeld" autocomplete="off"/>
-<input id="Vorname" maxlength="30" name="Vorname_PA__c" size="20" type="text" placeholder="Vorname *" required aria-label="Vorname Pflichtfeld" autocomplete="off"/>
-<input  id="Benutzername" maxlength="40" name="Benutzername__c" size="20" type="text" placeholder="Benutzername *" required aria-label="Benutzername Pflichtfeld" autocomplete="off"/>
-<input  id="Email" maxlength="80" name="Email_PA__c" size="20" type="text" placeholder="E-Mail Adresse *" required aria-label="E-Mail Adresse Pflichtfeld" autocomplete="off"/>
-<input  id="Kundennummer" maxlength="10" name="Kundennummer_PA__c" size="20" type="text" placeholder="Alexander Bürkle Kundennr. *" required aria-label="Alexander Bürkle Kundennr. Pflichtfeld" autocomplete="off"/>
-<input id="sendenButton" type="submit" name="submit" value="Senden">
-<input type="hidden" name="subject" value="Neue Registrierung Partner ABcademy">
-<input type="hidden" name="recordType" selected value="0123N000003CtcLQAS">
-</select>
-</form>
-    </div>
-    </div>
+    <button class="registerBtn">
+        <a href="https://register-partner-abcademy.netlify.app/">weitere Person registrieren</a>
+    </button>
 </div>
 <script src="src/index.js"></script>  
 </body>
