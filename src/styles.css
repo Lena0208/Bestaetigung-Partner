@@ -47,3 +47,20 @@ h1 {
   border-color: grey;
   color: white;
 }
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Link {
+  color: black;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.Link:hover {
+  cursor: pointer;
+  color: #ea002a;
+  text-decoration: underline;
+}
